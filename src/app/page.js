@@ -1,4 +1,6 @@
 import Image from "next/image";
+import About from "@/Pages/about";
+import Timeline from "@/Pages/Timeline";
 
 export default function Home() {
   return (
@@ -96,6 +98,8 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
+      <About />
+      <Timeline />
     </div>
   );
 }
