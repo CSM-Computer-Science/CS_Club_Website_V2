@@ -84,6 +84,7 @@ body {
     background-color: #3b2a20;
     margin: 0 auto;
     border: 4px solid #e36702;
+    border-radius: 5px;
 }
 
 .hero-image img {
