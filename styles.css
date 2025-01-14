@@ -118,8 +118,6 @@ body {
     font-size: 1rem;
 }
 
-/* new */
-
 .gallery {
     padding: 20px;
     margin: 1rem auto;
@@ -145,26 +143,22 @@ body {
     margin: 0 auto 90px;
 }
 
-/* The honeycomb container itself */
 .hex-gallery {
-    position: relative;      /* important for absolutely positioning the hexes */
-    width: 60%;            /* adjust as desired for your hex size */
-    height: 1000px;           /* must be tall enough for all 5 hexes */
+    position: relative;
+    width: 60%;
+    height: 1000px;
 }
 
-/* Each hex */
 .hex {
     position: absolute;
     width: 360px;
     height: 360px;
-    /* No margin needed since we are using absolute positioning */
     clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-    overflow: hidden;        /* ensure image doesn't spill outside the hex shape */
-    transition: filter 0.3s ease; /* or background, etc., for hover animations */
+    overflow: hidden;
+    transition: filter 0.3s ease;
 }
 
 .hex img {
-  filter: grayscale(80%);
     transition: opacity 0.4s ease, filter 0.4s ease;
 }
 
@@ -176,8 +170,6 @@ body {
     opacity: 1;
 }
 
-
-/* Place the left-column hexes (three total) */
 .hex:nth-of-type(1) {
     top: 0;
     left: 0;
@@ -203,7 +195,6 @@ body {
     left: 0;
 }
 
-/* Caption container styling */
 .caption-container {
     flex-shrink: 0;
     width: 100%;
@@ -231,8 +222,6 @@ body {
     font-size: 1rem;
     line-height: 1.4;
 }
-
-/* end new */
 
 .gallery-item {
     height: 150px;
